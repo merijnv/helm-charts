@@ -1,0 +1,11 @@
+fullnameOverride: rh-sso
+nameOverride: rh-sso
+keycloak:
+  replicas: 1
+  image:
+    pullSecrets:
+    - redhatpullsecrets
+    tag: latest
+
+  persistence:
+    dbVendor: mysql

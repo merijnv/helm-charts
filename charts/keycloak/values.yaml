@@ -23,7 +23,7 @@ keycloak:
   replicas: 1
 
   image:
-    repository: docker.io/jboss/keycloak
+    repository: registry.redhat.io/rh-sso-7/sso74-openshift-rhel8
     # Overrides the image tag whose default is the chart version.
     tag: ""
     pullPolicy: IfNotPresent

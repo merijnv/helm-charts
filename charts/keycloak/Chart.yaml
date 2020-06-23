@@ -1,7 +1,7 @@
 apiVersion: v1
-name: keycloak
-version: 8.2.2
-appVersion: 10.0.0
+name: redhat-sso-by-isaac
+version: 0.0.1
+appVersion: 7.4
 description: Open Source Identity and Access Management For Modern Applications and Services
 keywords:
   - sso
@@ -10,13 +10,11 @@ keywords:
   - saml
   - kerberos
   - ldap
-home: https://www.keycloak.org/
-icon: https://www.keycloak.org/resources/images/keycloak_logo_480x108.png
+home: https://www.isaac.nl/
+icon: https://www.isaac.nl/global/images/logo.svg
 sources:
   - https://github.com/codecentric/helm-charts
   - https://github.com/jboss-dockerfiles/keycloak
 maintainers:
-  - name: unguiculus
-    email: unguiculus@gmail.com
-  - name: thomasdarimont
-    email: thomas.darimont+github@gmail.com
+  - name: isaac
+    email: info@isaac.nl

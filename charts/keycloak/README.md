@@ -1,3 +1,7 @@
+# Cloned by Merijn Vogel for use at ISAAC
+
+Goal: Using the Red Hat official image for Red Hat SSO 7.4.
+
 # Keycloak
 
 [Keycloak](http://www.keycloak.org/) is an open source identity and access management for modern applications and services.
